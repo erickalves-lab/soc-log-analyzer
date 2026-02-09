@@ -1,0 +1,17 @@
+{
+  "thresholds": {
+    "failed_login_attempts": 5,
+    "time_window_minutes": 10,
+    "business_hours_start": "08:00",
+    "business_hours_end": "18:00"
+  },
+  "whitelist_ips": [
+    "127.0.0.1"
+  ],
+  "alert_levels": {
+    "low": "3-4 tentativas",
+    "medium": "5-9 tentativas",
+    "high": "10+ tentativas ou login fora de horário"
+  },
+  "log_file": "/var/log/auth.log"
+}

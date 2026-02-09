@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Logs e relatórios (dados sensíveis)
+logs/*.log
+reports/*.json
+reports/*.csv
+
+# Configurações locais
+config/local_config.json
+
+# IDE
+.vscode/
+.idea/
