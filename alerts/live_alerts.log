@@ -1,0 +1,4 @@
+[2026-02-10 10:19:27] [INFO] Nova origem detectada: 192.168.122.30 (usuário: sm)
+[2026-02-10 10:19:48] [MEDIUM] IP 192.168.122.30 com 2 tentativas (usuário: sm)
+[2026-02-10 10:22:22] [HIGH] ⚠️  IP 192.168.122.30 atingiu THRESHOLD! 5 tentativas falhadas
+[2026-02-10 10:22:24] [CRITICAL] 🚫 IP 192.168.122.30 BANIDO pelo fail2ban!
