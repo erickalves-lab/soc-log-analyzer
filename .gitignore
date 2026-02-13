@@ -11,10 +11,19 @@ env/
 logs/*.log
 reports/*.json
 reports/*.csv
+alerts/*.log
 
-# Configurações locais
-config/local_config.json
+# Configurações locais (CHAVES DE API!)
+config/config.json
+
+# Estado do monitor
+state/*.json
 
 # IDE
 .vscode/
 .idea/
+
+# Arquivos temporários
+*.swp
+*.swo
+*~
